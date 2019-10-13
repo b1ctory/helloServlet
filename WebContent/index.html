@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action = "loginServlet" method = "post">
+	<!--이 url로 post method로 보낸다  
+		war file은 webContent부분을 패키징해서 만든것
+		webapps에서 풀린 war파일에는 classes라는 폴더가 새로 들어가있음
+		Java Resores밑에 있는 소스들을 컴파일해서 classes라는 곳에 넣어줌
+		그리고 이 전체를 war파일로 패키징 하는것이다.-->
+		Username : <input type = "text" name = "username" ><br/>
+		Password : <input type = "password" name = "password" ><br/>
+		<input type = "submit" value = "press">
+	</form>
+</body>
+</html>
